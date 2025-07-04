@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assign Bug</title>
+</head>
+<body>
+    <h1>Assign Bug to Developer</h1>
+    <form action="/bugs/assign" method="post">
+        <div>
+            <label for="bug_id">Bug ID:</label>
+            <input type="text" id="bug_id" name="bug_id" required>
+        </div>
+        <div>
+            <label for="developer_id">Developer ID:</label>
+            <input type="text" id="developer_id" name="developer_id" required>
+        </div>
+        <button type="submit">Assign</button>
+    </form>
+</body>
+</html>
